@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaPresentacion\\CapaPresentacion.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaDatos\\CapaDatos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaDatos\\CapaDatos.csproj",
+        "projectName": "CapaDatos",
+        "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaDatos\\CapaDatos.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaEntidad\\CapaEntidad.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaEntidad\\CapaEntidad.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaEntidad\\CapaEntidad.csproj",
+        "projectName": "CapaEntidad",
+        "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaEntidad\\CapaEntidad.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaNegocio\\CapaNegocio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaNegocio\\CapaNegocio.csproj",
+        "projectName": "CapaNegocio",
+        "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaNegocio\\CapaNegocio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaDatos\\CapaDatos.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaEntidad\\CapaEntidad.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaPresentacion\\CapaPresentacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaPresentacion\\CapaPresentacion.csproj",
+        "projectName": "CapaPresentacion",
+        "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaPresentacion\\CapaPresentacion.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaPresentacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaDatos\\CapaDatos.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaEntidad\\CapaEntidad.csproj"
+              },
+              "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaNegocio\\CapaNegocio.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaNegocio\\CapaNegocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FontAwesome.Sharp": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
