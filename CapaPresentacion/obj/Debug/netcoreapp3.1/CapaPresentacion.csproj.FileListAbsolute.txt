@@ -41,3 +41,4 @@ C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmDetalleCompra.resources
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmDetalleVenta.resources
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmVentas.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Properties.Resources.resources

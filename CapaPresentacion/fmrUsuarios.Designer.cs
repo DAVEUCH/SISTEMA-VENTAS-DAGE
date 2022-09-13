@@ -52,7 +52,7 @@ namespace CapaPresentacion
             this.label9 = new System.Windows.Forms.Label();
             this.dgvdata = new System.Windows.Forms.DataGridView();
             this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.IdUsuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NombreCompleto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Correo = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -68,6 +68,7 @@ namespace CapaPresentacion
             this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.btnLimpiar = new FontAwesome.Sharp.IconButton();
             this.btnBuscar = new FontAwesome.Sharp.IconButton();
+            this.txtindice = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).BeginInit();
             this.SuspendLayout();
             // 
@@ -299,7 +300,7 @@ namespace CapaPresentacion
             this.dgvdata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvdata.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btnSeleccionar,
-            this.IdUsuario,
+            this.Id,
             this.Documento,
             this.NombreCompleto,
             this.Correo,
@@ -318,6 +319,8 @@ namespace CapaPresentacion
             this.dgvdata.RowTemplate.Height = 28;
             this.dgvdata.Size = new System.Drawing.Size(840, 396);
             this.dgvdata.TabIndex = 19;
+            this.dgvdata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdata_CellContentClick);
+            this.dgvdata.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvdata_CellPainting);
             // 
             // btnSeleccionar
             // 
@@ -326,12 +329,12 @@ namespace CapaPresentacion
             this.btnSeleccionar.ReadOnly = true;
             this.btnSeleccionar.Width = 30;
             // 
-            // IdUsuario
+            // Id
             // 
-            this.IdUsuario.HeaderText = "Id Usuario";
-            this.IdUsuario.Name = "IdUsuario";
-            this.IdUsuario.ReadOnly = true;
-            this.IdUsuario.Visible = false;
+            this.Id.HeaderText = "Id Usuario";
+            this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
+            this.Id.Visible = false;
             // 
             // Documento
             // 
@@ -472,11 +475,20 @@ namespace CapaPresentacion
             this.btnBuscar.TabIndex = 25;
             this.btnBuscar.UseVisualStyleBackColor = false;
             // 
+            // txtindice
+            // 
+            this.txtindice.Location = new System.Drawing.Point(185, 33);
+            this.txtindice.Name = "txtindice";
+            this.txtindice.Size = new System.Drawing.Size(28, 23);
+            this.txtindice.TabIndex = 27;
+            this.txtindice.Text = "-1";
+            // 
             // fmrUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1177, 547);
+            this.Controls.Add(this.txtindice);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtBusqueda);
@@ -537,8 +549,13 @@ namespace CapaPresentacion
         private System.Windows.Forms.DataGridView dgvdata;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtid;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.ComboBox cboBusqueda;
+        private System.Windows.Forms.TextBox txtBusqueda;
+        private FontAwesome.Sharp.IconButton btnLimpiar;
+        private FontAwesome.Sharp.IconButton btnBuscar;
         private System.Windows.Forms.DataGridViewButtonColumn btnSeleccionar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IdUsuario;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Documento;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreCompleto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Correo;
@@ -547,10 +564,6 @@ namespace CapaPresentacion
         private System.Windows.Forms.DataGridViewTextBoxColumn Rol;
         private System.Windows.Forms.DataGridViewTextBoxColumn EstadoValor;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.ComboBox cboBusqueda;
-        private System.Windows.Forms.TextBox txtBusqueda;
-        private FontAwesome.Sharp.IconButton btnLimpiar;
-        private FontAwesome.Sharp.IconButton btnBuscar;
+        private System.Windows.Forms.TextBox txtindice;
     }
 }
