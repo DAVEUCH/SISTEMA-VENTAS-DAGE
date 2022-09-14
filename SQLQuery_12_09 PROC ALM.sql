@@ -71,45 +71,45 @@
 -- set @Mensaje= 'No se puede repetir el documento para mas de un usuario'
 -- end
 
-CREATE proc SP_ELIMINARRUSUARIO(
+--CREATE proc SP_ELIMINARRUSUARIO(
 
- @IdUsuario int,
- @Respuesta bit output,
- @Mensaje varchar(500) output
- )
+-- @IdUsuario int,
+-- @Respuesta bit output,
+-- @Mensaje varchar(500) output
+-- )
 
-as
-begin
+--as
+--begin
 
-set @Respuesta =0
-set @Mensaje=''
-declare @pasoreglas bit = 1
+--set @Respuesta =0
+--set @Mensaje=''
+--declare @pasoreglas bit = 1
 
-if exists (select *from COMPRA C
-inner join USUARIO U on u.IdUsuario = C.IdUsurio
-where u.IdUsuario =@IdUsuario)
+--if exists (select *from COMPRA C
+--inner join USUARIO U on u.IdUsuario = C.IdUsurio
+--where u.IdUsuario =@IdUsuario)
 
-begin
-    set @pasoreglas =0
-    set @Respuesta =0
-	set @Mensaje= @Mensaje +'No se puede eliminar porque el usuario esta relacionado a una Compra\n'
+--begin
+--    set @pasoreglas =0
+--    set @Respuesta =0
+--	set @Mensaje= @Mensaje +'No se puede eliminar porque el usuario esta relacionado a una Compra\n'
 
-end
+--end
 
-if exists (select *from VENTA V
-inner join USUARIO U on u.IdUsuario = V.IdUsurio
-where u.IdUsuario =@IdUsuario)
+--if exists (select *from VENTA V
+--inner join USUARIO U on u.IdUsuario = V.IdUsurio
+--where u.IdUsuario =@IdUsuario)
 
-begin
-    set @pasoreglas =0
-    set @Respuesta =0
-	set @Mensaje= @Mensaje +'No se puede eliminar porque el usuario esta relacionado a una Venta\n'
+--begin
+--    set @pasoreglas =0
+--    set @Respuesta =0
+--	set @Mensaje= @Mensaje +'No se puede eliminar porque el usuario esta relacionado a una Venta\n'
 
-end
+--end
 
-if(@pasoreglas = 1)
-  begin 
-  delete from USUARIO where IdUsuario = @IdUsuario
-  set @Respuesta =1
-  end
- end
+--if(@pasoreglas = 1)
+--  begin 
+--  delete from USUARIO where IdUsuario = @IdUsuario
+--  set @Respuesta =1
+--  end
+-- end
