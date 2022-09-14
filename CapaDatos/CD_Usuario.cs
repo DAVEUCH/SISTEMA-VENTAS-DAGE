@@ -55,5 +55,51 @@ namespace CapaDatos
             }
             return lista;
         }
+
+        public int Registrar(Usuario obj,out string Mensaje){
+            //con el public" int registrar" de arriba esta llamando objetos de clase usuario
+            
+            int idusuariogenerado = 0;
+            Mensaje = string.Empty;
+
+            //aqui agrego mi procedimiento almacenado
+
+            try{
+
+                using (SqlConnection oconexion = new SqlConnection(Conexion.CN)) {
+
+
+                    SqlCommand cmd = new SqlCommand("SP_REGISTRARUSUARIO", oconexion);
+                    //con el public" int registrar" de arriba esta llamando objetos de clase usuario
+                    cmd.Parameters.AddWithValue("Documento",obj.Documento);
+                    cmd.Parameters.AddWithValue("NombreCompleto", obj.NombreCompleto);
+                    cmd.Parameters.AddWithValue("Correo", obj.Correo);
+                    cmd.Parameters.AddWithValue("Clave", obj.Clave);
+                    cmd.Parameters.AddWithValue("IdRol", obj.oRol.IdRol);
+                    cmd.Parameters.AddWithValue("Estado", obj.Estado);
+                    cmd.Parameters.Add("IdUsuarioResultado", SqlDbType.Int).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+                    cmd.CommandType = CommandType.Text;
+
+                    oconexion.Open();
+
+                    cmd.ExecuteNonQuery();// con este comando ejecuto mi query
+
+                    idusuariogenerado = Convert.ToInt32(cmd.Parameters["IdUsuarioResultado"].Value);
+                    Mensaje = cmd.Parameters["Mensaje"].Value.ToString();
+
+
+                }
+
+            }
+            catch(Exception ex) {
+                idusuariogenerado = 0;
+                Mensaje = ex.Message;
+            
+            }
+
+            return idusuariogenerado;
+
+        }
     }
 }
