@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaEntidad;
 using CapaNegocio;
+using CapaPresentacion.Model;
 using FontAwesome.Sharp;
 
 namespace CapaPresentacion
@@ -76,7 +77,7 @@ namespace CapaPresentacion
 
         private void menuUsuario_Click(object sender, EventArgs e)
         {
-            AbrirFormulario((IconMenuItem)sender, new fmrUsuarios());
+            //AbrirFormulario((IconMenuItem)sender, new fmrUsuarios());
 
         }
 
@@ -93,7 +94,7 @@ namespace CapaPresentacion
 
         private void submenuRegistrarVenta_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(menuVentas, new frmVentas());
+            AbrirFormulario(menuVentas, new frmVentas(usuarioActual));
         }
 
         private void submenuVerDetVenta_Click(object sender, EventArgs e)
@@ -103,7 +104,7 @@ namespace CapaPresentacion
 
         private void submenuRegistrarCompra_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(menuCompras, new frmCompras());
+            AbrirFormulario(menuCompras, new frmCompras(usuarioActual));
         }
 
         private void submenuVerDetCompra_Click(object sender, EventArgs e)
@@ -121,9 +122,59 @@ namespace CapaPresentacion
             AbrirFormulario((IconMenuItem)sender, new frmProveedores());
         }
 
-        private void menuReportes_Click(object sender, EventArgs e)
+      
+
+        private void submenuNegocio_Click(object sender, EventArgs e)
         {
-            AbrirFormulario((IconMenuItem)sender, new frmReportes());
+            AbrirFormulario(menuMantenimiento, new FrmNegocio());
+
         }
+
+        private void submenuReporteCompras_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menuReportes, new frmReporteCompras());
+
+        }
+
+        private void submenuReporteVentas_Click(object sender, EventArgs e)
+        {
+            frmReporteVentas FV = new frmReporteVentas();
+            //FV.ShowDialog();
+            FV.Visible = true;
+
+        }
+
+        private void menuAcercade_Click(object sender, EventArgs e)
+        {
+            mdAcercade md = new mdAcercade();
+            md.ShowDialog();
+
+        }
+
+        private void submenuCrearRol_Click(object sender, EventArgs e)
+        {
+            frmCrear_Rol CR = new frmCrear_Rol();
+            //FV.ShowDialog();
+            CR.Visible = true;
+
+        }
+
+        private void listaDeAccesosXRolToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAccesosporusuario AP = new frmAccesosporusuario();
+            //FV.ShowDialog();
+            AP.Visible = true;
+
+        }
+
+        private void submenuCrearUsuarios_Click(object sender, EventArgs e)
+        {
+            fmrUsuarios FU = new fmrUsuarios();
+            //FV.ShowDialog();
+            FU.Visible = true;
+            //AbrirFormulario((IconMenuItem)sender, new fmrUsuarios());
+        }
+
+     
     }
 }

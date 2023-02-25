@@ -57,4 +57,63 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="btnSeleccionar.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Codigo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Nombre.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Descripcion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="IdCategoria.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Categoria.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Stock.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PrecioCompra.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="PrecioVenta.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EstadoValor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Estado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnExportarExcel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAsPAAALDwGS+QOlAAAAB3RJ
+        TUUH5gkYARsNQjGSLgAAA3ZJREFUOE+N1HlIVFscB/AbtFEUUZRFjo2ZLU4W9eohZIqOo1lmWWM0ZU8L
+        zaXRnBlnJnMwTSXUIBO1zUqLyqBFW2x7baYvV9J6pdZf0SNeBRH9EYXUt++55dToGB34cLhwz5ffOb9z
+        r/TzcDMGSVN+wdMWKrmbg7+/PcBwHqIR83CaTD60gbJppmuCn+Qav9i5BF85cBBfHEUepKYkKqEb9Ize
+        0xfqcYlfpJX8xo2TIqa4OFK6DNWpRklzWSFfVNIl+o8+EJxRGjVf/E1rnq/JTnwSXWzpjN5r7ozhLGwo
+        Suv2SY88Pybmj4ki0Jte/bzYGQ9TCNJKduJYzWnUdzSjoaMFtY23cK35Dh49fYLEfZn/D9V5eYvA2fSy
+        d6GbQW2fFamBP0IN9JcvlNG+2FyaAf2BLHjqgzDXtFwO3npo58sha71mOwTOsC7F/Ewttxckz6G74+Fh
+        XiIHuhs1CMvYiLhCCw7UnkT51SoYD+dhW2UBGh+1IflgtmOgwhCIJQyo626FpiAWR+rOobK+BlPTgu0V
+        zoxVY05CiKgG5qO7sMASAT+bTt52St8K2W1MtyzF5Y67qG67ifbnXVhRpIfr922LCjWW9ViXo0dR9RGU
+        XKhEXOl2eesNPNOUvhWKRZNTA7Cp3IaPPZ9Q1VgLpUljP0NxDH/qw6E265B5Yg9yq0qwLC8O2gI9brc1
+        MNDJGYpqbGeL8eb9W/z9+D680pfbm9QbGOgQGMvALc4DFVy4KGc9t9ophz588RTGk/n2LfMeIiBtLbRZ
+        CSg8e1DeNu8iNpdloL69qf+WRVNW7k3GnquVmLUtDFnnS1Fxr1ruvDhf0RRVnAbzkpYhtTwX1op8+KRr
+        EbgjCteb7/Zviqiil5tRze6GQJUeDnfTty6LpgRboxCVl4LimgqUXTyO+DKbCMI/D1ucN6UvEWx/ZoUe
+        Mf7w3BSApP2ZvDo5UKWGYqF1Fa403Xa42L/96VlLc3Hq0hk0sCJR1Y2WOtxsrUd717+iWn56KjlQQaeo
+        m97RZ+oXyC5/9tka0cWvpSmyUN+spcjCZNnq/C2tvOTHxsYsGN/7PxxGk2gh6SiHztADek099Gliom+4
+        5C2NlELHj3Y0YbS0eupwKXK6/PsayGAaSyoKJwPPcZoiyd/5z5VGhHz7aduHwswgQ5DkRgzoz6CW54GH
+        JH0FYH+i8PHSX7kAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>

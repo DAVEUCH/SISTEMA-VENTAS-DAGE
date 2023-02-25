@@ -1,9 +1,3 @@
-C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.exe
-C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.deps.json
-C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.runtimeconfig.json
-C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.runtimeconfig.dev.json
-C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.dll
-C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.pdb
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\FontAwesome.Sharp.dll
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.csproj.AssemblyReference.cache
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Inicio.resources
@@ -13,11 +7,8 @@ C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.AssemblyInfo.cs
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.csproj.CopyComplete
-C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.dll
-C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.pdb
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.genruntimeconfig.cache
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Login.resources
-C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.dll.config
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaDatos.dll
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaEntidad.dll
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaNegocio.dll
@@ -42,3 +33,83 @@ C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmDetalleVenta.resources
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmVentas.resources
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Properties.Resources.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\ClosedXML.dll
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\ExcelNumberFormat.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.exe
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.dll.config
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.deps.json
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.runtimeconfig.json
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.runtimeconfig.dev.json
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaPresentacion.pdb
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\ClosedXML.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\DocumentFormat.OpenXml.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\ExcelNumberFormat.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\FontAwesome.Sharp.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaDatos.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaEntidad.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaNegocio.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaDatos.pdb
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaEntidad.pdb
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\CapaNegocio.pdb
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.csproj.AssemblyReference.cache
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.fmrUsuarios.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.fmrVentas.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmCategoria.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmClientes.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmCompras.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmDetalleCompra.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmDetalleVenta.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmProducto.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmProveedores.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmReportes.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmVentas.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Inicio.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Login.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Properties.Resources.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.csproj.GenerateResource.cache
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.AssemblyInfoInputs.cache
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.AssemblyInfo.cs
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.csproj.CoreCompileInputs.cache
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.csproj.CopyComplete
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.pdb
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.genruntimeconfig.cache
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.FrmNegocio.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Model.mdProveedor.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Model.mdProducto.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\itextsharp.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\itextsharp.xmlworker.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.FrmNegocio.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Model.mdProducto.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Model.mdProveedor.resources
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Model.mdCliente.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\itextsharp.dll
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\itextsharp.xmlworker.dll
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Model.mdCliente.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmReporteCompras.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmReporteVentas.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.Model.mdAcercade.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\SytemVentasDAGE.exe
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\SytemVentasDAGE.dll.config
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\SytemVentasDAGE.deps.json
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\SytemVentasDAGE.runtimeconfig.json
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\SytemVentasDAGE.runtimeconfig.dev.json
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\SytemVentasDAGE.dll
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\SytemVentasDAGE.pdb
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\SytemVentasDAGE.dll
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\SytemVentasDAGE.pdb
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmCrear_Rol.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\obj\Debug\netcoreapp3.1\CapaPresentacion.frmAccesosporusuario.resources
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\ADO.Net.Client.Annotations.dll
+C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaPresentacion\bin\Debug\netcoreapp3.1\ADO.Net.Client.Core.dll

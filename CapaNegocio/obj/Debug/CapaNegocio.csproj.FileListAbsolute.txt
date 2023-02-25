@@ -15,3 +15,20 @@ C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\System.Data.SqlClient.dll
 C:\Users\user\Desktop\UCH\SISTEMA DE VENTAS DAGESISTEM\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\System.Data.SqlClient.xml
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\CapaNegocio.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\CapaNegocio.pdb
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\CapaDatos.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\CapaEntidad.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\EntityFramework.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\EntityFramework.SqlServer.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\System.Data.SqlClient.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\CapaDatos.pdb
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\CapaEntidad.pdb
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\EntityFramework.xml
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\EntityFramework.SqlServer.xml
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\bin\Debug\System.Data.SqlClient.xml
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\obj\Debug\CapaNegocio.dll
+D:\SYSTEM DAGE\Sistema_VentasDAGESYSTEM\CapaNegocio\obj\Debug\CapaNegocio.pdb

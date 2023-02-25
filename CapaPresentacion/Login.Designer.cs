@@ -38,6 +38,7 @@ namespace CapaPresentacion
             this.label4 = new System.Windows.Forms.Label();
             this.btnentrar = new FontAwesome.Sharp.IconButton();
             this.btnsalir = new FontAwesome.Sharp.IconButton();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,6 +50,7 @@ namespace CapaPresentacion
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(213, 220);
             this.label1.TabIndex = 0;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -79,23 +81,25 @@ namespace CapaPresentacion
             // 
             // txtdoc
             // 
-            this.txtdoc.Location = new System.Drawing.Point(243, 44);
+            this.txtdoc.Location = new System.Drawing.Point(243, 78);
             this.txtdoc.Name = "txtdoc";
             this.txtdoc.Size = new System.Drawing.Size(210, 23);
             this.txtdoc.TabIndex = 3;
+            this.txtdoc.Text = "70882417";
             // 
             // txtcontra
             // 
-            this.txtcontra.Location = new System.Drawing.Point(243, 101);
+            this.txtcontra.Location = new System.Drawing.Point(243, 135);
             this.txtcontra.Name = "txtcontra";
             this.txtcontra.PasswordChar = '*';
             this.txtcontra.Size = new System.Drawing.Size(210, 23);
             this.txtcontra.TabIndex = 4;
+            this.txtcontra.Text = "123";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(243, 22);
+            this.label3.Location = new System.Drawing.Point(243, 56);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 15);
             this.label3.TabIndex = 5;
@@ -104,7 +108,7 @@ namespace CapaPresentacion
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(243, 74);
+            this.label4.Location = new System.Drawing.Point(243, 108);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 15);
             this.label4.TabIndex = 6;
@@ -152,12 +156,23 @@ namespace CapaPresentacion
             this.btnsalir.UseVisualStyleBackColor = false;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(243, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(104, 17);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "INICIAR SESION";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(496, 220);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.btnentrar);
             this.Controls.Add(this.label4);
@@ -189,5 +204,6 @@ namespace CapaPresentacion
         private System.Windows.Forms.Label label4;
         private FontAwesome.Sharp.IconButton btnentrar;
         private FontAwesome.Sharp.IconButton btnsalir;
+        private System.Windows.Forms.Label label5;
     }
 }

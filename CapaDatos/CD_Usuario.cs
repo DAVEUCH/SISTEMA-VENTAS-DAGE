@@ -56,6 +56,7 @@ namespace CapaDatos
             return lista;
         }
 
+        // MEDOTO DE REGISTRAR USUARIO
         public int Registrar(Usuario obj,out string Mensaje){
             //con el public" int registrar" de arriba esta llamando objetos de clase usuario
             
@@ -71,15 +72,15 @@ namespace CapaDatos
 
                     SqlCommand cmd = new SqlCommand("SP_REGISTRARUSUARIO", oconexion);
                     //con el public" int registrar" de arriba esta llamando objetos de clase usuario
-                    cmd.Parameters.AddWithValue("Documento",obj.Documento);
+                    cmd.Parameters.AddWithValue("Documento", obj.Documento);
                     cmd.Parameters.AddWithValue("NombreCompleto", obj.NombreCompleto);
                     cmd.Parameters.AddWithValue("Correo", obj.Correo);
                     cmd.Parameters.AddWithValue("Clave", obj.Clave);
                     cmd.Parameters.AddWithValue("IdRol", obj.oRol.IdRol);
                     cmd.Parameters.AddWithValue("Estado", obj.Estado);
                     cmd.Parameters.Add("IdUsuarioResultado", SqlDbType.Int).Direction = ParameterDirection.Output;
-                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar).Direction = ParameterDirection.Output;
-                    cmd.CommandType = CommandType.Text;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar,500).Direction = ParameterDirection.Output;
+                    cmd.CommandType = CommandType.StoredProcedure;
 
                     oconexion.Open();
 
@@ -101,5 +102,107 @@ namespace CapaDatos
             return idusuariogenerado;
 
         }
+
+        // MEDOTO DE EDITAR USUARIO
+        public bool Editar(Usuario obj, out string Mensaje)
+        {
+            //con el public" int registrar" de arriba esta llamando objetos de clase usuario
+
+            bool respuesta = false;
+            Mensaje = string.Empty;
+
+            //aqui agrego mi procedimiento almacenado
+
+            try
+            {
+
+                using (SqlConnection oconexion = new SqlConnection(Conexion.CN))
+                {
+
+
+                    SqlCommand cmd = new SqlCommand("SP_EDITARUSUARIO ", oconexion);
+                    //con el public" int registrar" de arriba esta llamando objetos de clase usuario
+
+                    cmd.Parameters.AddWithValue("IdUsuario", obj.IdUsusario);
+                    cmd.Parameters.AddWithValue("Documento", obj.Documento);
+                    cmd.Parameters.AddWithValue("NombreCompleto", obj.NombreCompleto);
+                    cmd.Parameters.AddWithValue("Correo", obj.Correo);
+                    cmd.Parameters.AddWithValue("Clave", obj.Clave);
+                    cmd.Parameters.AddWithValue("IdRol", obj.oRol.IdRol);
+                    cmd.Parameters.AddWithValue("Estado", obj.Estado);
+                    cmd.Parameters.Add("Respuesta", SqlDbType.Int).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar,500).Direction = ParameterDirection.Output;
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    oconexion.Open();
+
+                    cmd.ExecuteNonQuery();// con este comando ejecuto mi query
+
+                    respuesta = Convert.ToBoolean(cmd.Parameters["Respuesta"].Value);
+                    Mensaje = cmd.Parameters["Mensaje"].Value.ToString();
+
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                respuesta = false;
+                Mensaje = ex.Message;
+
+            }
+
+            return respuesta;
+
+        }
+
+        // MEDOTO DE ELIMINAR USUARIO
+        public bool Eliminar(Usuario obj, out string Mensaje)
+        {
+            //con el public" int registrar" de arriba esta llamando objetos de clase usuario
+
+            bool respuesta = false;
+            Mensaje = string.Empty;
+
+            //aqui agrego mi procedimiento almacenado
+
+            try
+            {
+
+                using (SqlConnection oconexion = new SqlConnection(Conexion.CN))
+                {
+
+
+                    SqlCommand cmd = new SqlCommand("SP_ELIMINARRUSUARIO ", oconexion);
+                    //con el public" int registrar" de arriba esta llamando objetos de clase usuario
+
+                    cmd.Parameters.AddWithValue("IdUsuario", obj.IdUsusario);
+                    cmd.Parameters.Add("Respuesta", SqlDbType.Int).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("Mensaje", SqlDbType.VarChar,500).Direction = ParameterDirection.Output;
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    oconexion.Open();
+
+                    cmd.ExecuteNonQuery();// con este comando ejecuto mi query
+
+                    respuesta = Convert.ToBoolean(cmd.Parameters["Respuesta"].Value);
+                    Mensaje = cmd.Parameters["Mensaje"].Value.ToString();
+
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+                respuesta = false;
+                Mensaje = ex.Message;
+
+            }
+
+            return respuesta;
+
+        }
+
+
     }
 }

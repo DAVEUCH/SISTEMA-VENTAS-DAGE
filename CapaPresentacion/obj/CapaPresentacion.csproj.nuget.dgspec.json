@@ -64,7 +64,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaPresentacion\\CapaPresentacion.csproj",
-        "projectName": "CapaPresentacion",
+        "projectName": "SytemVentasDAGE",
         "projectPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaPresentacion\\CapaPresentacion.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user\\Desktop\\UCH\\SISTEMA DE VENTAS DAGESISTEM\\Sistema_VentasDAGESYSTEM\\CapaPresentacion\\obj\\",
@@ -109,6 +109,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "ADO.Net.Client.Core": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.96.0, )"
+            },
             "FontAwesome.Sharp": {
               "target": "Package",
               "version": "[6.1.1, )"
@@ -116,6 +124,14 @@
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
+            },
+            "itextsharp.xmlworker": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
             }
           },
           "imports": [

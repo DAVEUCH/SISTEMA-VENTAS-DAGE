@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="frmAccesosporusuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmCrear_Rol.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmDetalleCompra.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -22,13 +28,22 @@
     <Compile Update="frmCompras.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmNegocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmProducto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmReporteCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmReporteVentas.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmVentas.cs">
@@ -38,6 +53,18 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Model\mdAcercade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Model\mdCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Model\mdProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Model\mdProveedor.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

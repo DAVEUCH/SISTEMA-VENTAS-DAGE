@@ -79,5 +79,105 @@ namespace CapaPresentacion.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Excel_2013_23480 {
+            get {
+                object obj = ResourceManager.GetObject("Excel_2013_23480", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pdf {
+            get {
+                object obj = ResourceManager.GetObject("pdf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///    &lt;title&gt;Web Page Design&lt;/title&gt;
+        ///    &lt;style&gt;
+        ///        table.border {
+        ///            border-collapse: collapse;
+        ///        }
+        ///
+        ///            table.border th {
+        ///                text-align: center;
+        ///                padding: 5px;
+        ///                border: 1px solid black;
+        ///            }
+        ///
+        ///            table.border td {
+        ///                text-align: center;
+        ///                padding: 5px;
+        ///                border: 1px solid black;
+        ///            }
+        ///    &lt;/style&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///    &lt;tab [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string PlantillaCompra {
+            get {
+                return ResourceManager.GetString("PlantillaCompra", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOCTYPE html&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///    &lt;title&gt;Web Page Design&lt;/title&gt;
+        ///    &lt;style&gt;
+        ///        table.border {
+        ///            border-collapse: collapse;
+        ///        }
+        ///
+        ///            table.border th {
+        ///                text-align: center;
+        ///                padding: 5px;
+        ///                border: 1px solid black;
+        ///            }
+        ///
+        ///            table.border td {
+        ///                text-align: center;
+        ///                padding: 5px;
+        ///                border: 1px solid black;
+        ///            }
+        ///    &lt;/style&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///    &lt;tab [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string PlantillaVenta {
+            get {
+                return ResourceManager.GetString("PlantillaVenta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+        ///&lt;!-- saved from url=(0016)http://localhost --&gt;
+        ///&lt;html&gt;
+        ///&lt;head&gt;
+        ///	&lt;title&gt;Reporte_Boleta&lt;/title&gt;
+        ///	&lt;meta HTTP-EQUIV=&quot;Content-Type&quot; CONTENT=&quot;text/html; charset=utf-8&quot;/&gt;
+        ///	&lt;style type=&quot;text/css&quot;&gt;
+        ///		.csC7B0111C {background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQEAAAACCAYAAABYD2nnAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAACVJREFUSEtjAIL/SBgZjIpDwKg4BIyKQ8BwFR8Fo2 [resto de la cadena truncado]&quot;;.
+        /// </summary>
+        internal static string Reporte_Boleta {
+            get {
+                return ResourceManager.GetString("Reporte_Boleta", resourceCulture);
+            }
+        }
     }
 }

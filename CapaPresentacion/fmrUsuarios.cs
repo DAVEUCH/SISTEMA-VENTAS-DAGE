@@ -76,15 +76,70 @@ namespace CapaPresentacion
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            //dgvdata.Rows.Add(new object[] {"",txtid.Text,txtDocumento.Text,txtNombreusu.Text,txtCorreo.Text,
-            //    txtClave.Text, ((OpcionesCombo)cboRol.SelectedItem).Valor.ToString(),
-            //    ((OpcionesCombo)cboRol.SelectedItem).Texto.ToString(),
-            //    ((OpcionesCombo)cboEstado.SelectedItem).Valor.ToString(),
-            //    ((OpcionesCombo)cboEstado.SelectedItem).Texto.ToString(),
-            //});
+            string mensaje = string.Empty;
+            Usuario objusuario = new Usuario()
+            {
+                IdUsusario =Convert.ToInt32(txtid.Text),
+                Documento = txtDocumento.Text,
+                NombreCompleto =txtNombreusu.Text,
+                Correo = txtCorreo.Text,
+                Clave = txtClave.Text,
+                oRol = new Rol() { IdRol = Convert.ToInt32(((OpcionesCombo)cboRol.SelectedItem).Valor)},
+                Estado = Convert.ToInt32(((OpcionesCombo)cboEstado.SelectedItem).Valor) == 1 ? true :false
 
-            //Limpiar();
-           
+            };
+
+            if(objusuario.IdUsusario == 0)
+            {
+
+                int idusuariogenerado = new CN_Usuario().Registrar(objusuario, out mensaje);
+
+                if (idusuariogenerado != 0)
+                {
+                    dgvdata.Rows.Add(new object[] {"",idusuariogenerado,txtDocumento.Text,txtNombreusu.Text,txtCorreo.Text,
+                txtClave.Text, ((OpcionesCombo)cboRol.SelectedItem).Valor.ToString(),
+                ((OpcionesCombo)cboRol.SelectedItem).Texto.ToString(),
+                ((OpcionesCombo)cboEstado.SelectedItem).Valor.ToString(),
+                ((OpcionesCombo)cboEstado.SelectedItem).Texto.ToString(),
+            });
+
+                    Limpiar();
+
+                }
+                else
+                {
+                    MessageBox.Show(mensaje);
+                }
+
+            }
+            else
+            {
+                bool resultado = new CN_Usuario().Editar(objusuario, out mensaje);
+
+                if (resultado)
+                {
+                    DataGridViewRow row = dgvdata.Rows[Convert.ToInt32(txtindice.Text)];
+                    row.Cells["Id"].Value = txtid.Text;
+                    row.Cells["Documento"].Value = txtDocumento.Text;
+                    row.Cells["NombreCompleto"].Value = txtNombreusu.Text;
+                    row.Cells["Correo"].Value = txtCorreo.Text;
+                    row.Cells["Clave"].Value = txtClave.Text;
+                    row.Cells["IdRol"].Value = ((OpcionesCombo)cboRol.SelectedItem).Valor.ToString();
+                    row.Cells["Rol"].Value = ((OpcionesCombo)cboRol.SelectedItem).Texto.ToString();
+                    row.Cells["EstadoValor"].Value = ((OpcionesCombo)cboEstado.SelectedItem).Valor.ToString();
+                    row.Cells["Estado"].Value = ((OpcionesCombo)cboEstado.SelectedItem).Texto.ToString();
+
+                    Limpiar();
+
+                }
+
+                else
+                {
+                    MessageBox.Show(mensaje);
+                }
+
+            }
+
 
         }
         private void Limpiar()
@@ -98,6 +153,8 @@ namespace CapaPresentacion
             txtConfirmarcontra.Text = "";
             cboRol.SelectedIndex = 0;
             cboEstado.SelectedIndex = 0;
+            //para que te aparezca primera en la casilla para editar
+            txtDocumento.Select();
 
         }
 
@@ -169,15 +226,92 @@ namespace CapaPresentacion
                             int indice_combo = cboEstado.Items.IndexOf(oc);
                             cboEstado.SelectedIndex = indice_combo;
                             break;
-
                         }
-
                     }
+                }
+            }
 
+        }
+
+     
+
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if(Convert.ToInt32(txtid.Text) != 0)
+            {
+                if(MessageBox.Show("¿Desea elimnar el usuario seleccionado?","Mensaje",MessageBoxButtons.YesNo,MessageBoxIcon.Question)== DialogResult.Yes) 
+                {
+                    string mensaje = string.Empty;
+                    Usuario objusuario = new Usuario()
+                    {
+                        IdUsusario = Convert.ToInt32(txtid.Text),
+
+                    };
+
+
+                    bool respuesta = new CN_Usuario().Eliminar(objusuario, out mensaje);
+
+                    if (respuesta)
+                    {
+                        dgvdata.Rows.RemoveAt(Convert.ToInt32(txtindice.Text));
+                    }
+                    else
+                    {
+                        MessageBox.Show(mensaje, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                    Limpiar();
 
                 }
-               
             }
+
+        }
+
+        private void btnlimpiar_Click(object sender, EventArgs e)
+        {
+            Limpiar();
+        }
+
+        private void cboEstado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            string columnaFiltro = ((OpcionesCombo)cboBusqueda.SelectedItem).Valor.ToString();
+
+            if (dgvdata.Rows.Count > 0)
+            {
+                foreach(DataGridViewRow row in dgvdata.Rows)
+                {
+                    if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(txtBusqueda.Text.Trim().ToUpper()))
+                        row.Visible = true;
+                    else
+                        row.Visible = false;
+                }
+            }
+
+        }
+
+        private void btnLimpiarBuscador_Click(object sender, EventArgs e)
+        {
+            txtBusqueda.Text = "";
+            foreach (DataGridViewRow row in dgvdata.Rows)
+            {
+                row.Visible = true;
+            }
+
+        }
+
+        private void cboBusqueda_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboRol_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
     }

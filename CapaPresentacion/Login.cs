@@ -41,7 +41,7 @@ namespace CapaPresentacion
 
         private void btnentrar_Click(object sender, EventArgs e)
         {
-            List<Usuario> TEST = new CN_Usuario().Listar();
+            //List<Usuario> TEST = new CN_Usuario().Listar();
 
             Usuario ousuario = new CN_Usuario().Listar().Where(u => u.Documento == txtdoc.Text && u.Clave == txtcontra.Text).FirstOrDefault();
 
@@ -66,6 +66,11 @@ namespace CapaPresentacion
             txtdoc.Text = "";
             txtcontra.Text = "";
             this.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
